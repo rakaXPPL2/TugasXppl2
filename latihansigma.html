@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Latihan JavaScript</title>
+</head>
+<body>
+  <h2>Belajar JavaScript</h2>
+
+  <script>
+    // ==========================
+    // Latihan 1 – Variabel & Tipe Data
+    // ==========================
+    let nama = "Raka";       // Nama = Raka
+    let umur = 15;           // Umur = 15 tahun
+    let isStudent = true;    // Boolean
+
+    console.log(nama, umur, isStudent);
+    document.write("Halo, nama saya " + nama + ", umur saya " + umur + "<br>");
+    document.write("Apakah saya seorang siswa? " + isStudent + "<br><br>");
+
+    // ==========================
+    // Latihan 2 – Operator Dasar
+    // ==========================
+    let a = 10;
+    let b = 5;
+
+    console.log("Penjumlahan =", a + b);
+    console.log("Pengurangan =", a - b);
+    console.log("Perkalian =", a * b);
+    console.log("Pembagian =", a / b);
+
+    document.write("Penjumlahan: " + (a + b) + "<br>");
+    document.write("Pengurangan: " + (a - b) + "<br>");
+    document.write("Perkalian: " + (a * b) + "<br>");
+    document.write("Pembagian: " + (a / b) + "<br><br>");
+
+    // ==========================
+    // Latihan 3 – Input dari User
+    // ==========================
+    let namaUser = prompt("Siapa namamu?");
+    alert("Halo, " + namaUser + "!");
+    document.write("Halo, " + namaUser + "!<br><br>");
+
+    // ==========================
+    // Latihan 4 – Tantangan Mini
+    // ==========================
+    let angka1 = parseInt(prompt("Masukkan angka pertama:"));
+    let angka2 = parseInt(prompt("Masukkan angka kedua:"));
+    let hasil = angka1 + angka2;
+
+    alert("Hasil penjumlahan = " + hasil);
+    document.write("Hasil penjumlahan " + angka1 + " + " + angka2 + " = " + hasil + "<br>");
+  </script>
+</body>
+</html>
+
